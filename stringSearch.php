@@ -2,20 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <?php
-class p {
-    var $name= 'nat';}
-    $p = new P;
-    print_r($p);
-    object(
-        [name]=>nat
-    )
-
-?>
+    <?php 
+    function isOctal($str){
+        return strspn($str,'01234567') == strlen($str);
+    }
+    $my = isOctal("1234567");
+    echo $my ? 'true ' : 'false' ;
+    ?>
 </body>
 </html>
