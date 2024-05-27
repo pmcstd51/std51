@@ -33,6 +33,9 @@
     }
     
     $parrot = new birds();
+    echo "<br>";
+    $parroti = new birds();
+    echo "<br>";
     echo $parrot->birdsFly;
     $parrot->setname('Anup');
     echo "<br>";
