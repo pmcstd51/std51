@@ -47,6 +47,16 @@
 
 
 
+    //To check whether the element exists or not we use, "array_key_exists" function
+    $myArr = array("Anup"=>"chand", "Sumit"=>"Chaudhary", "Anant"=>"Kadel", "Niroj"=>"Thapa");
+    if(array_key_exists("Anup", $myArr)){
+        echo "key exists"
+    }
+
+    echo "<br>";    echo "<br>";
+    echo "<br>";
+
+
 
 
     ?>
