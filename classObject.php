@@ -24,6 +24,12 @@
             return $this->bridsName;
         }
 
+
+        //to create constructor in PHP we use '__construct'
+        function __construct(){
+            echo "hello world\n";
+        }
+
     }
     
     $parrot = new birds();
