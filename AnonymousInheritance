@@ -1,0 +1,30 @@
+//Anonymous class with inheritance
+
+<?php
+
+
+class parentclass{
+    public function test1(){
+        echo "hello there!!\n";
+        
+    }
+}
+interface parentinterface{
+    public function test2();
+}
+$obj = new class () extends parentclass implements parentinterface{
+    public function test2(){
+        echo "Implements test2 method from interface\n";
+    }
+};
+$obj->test1();
+$obj->test2();
+
+
+// Array of classed , in_array , class_exists , get_declared_classes 
+// get_class_method , get_class_vars
+
+//Examining an object ==> is_object(), get_class();
+// get_object_vars();
+
+?>
